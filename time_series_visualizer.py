@@ -1,9 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+#########################################
+# Created by: Joao Pedro Peters Barbosa #
+#                                       #
+# github: https://github.com/Jppbrbs    #
+# email: jpptrs@gmail.com               #
+#                                       #
+# Date: Jul/2020                        #
+#########################################
+
+
+"""
+freeCodeCamp Project4 - Data Analysis with Python Course
+"""
+
+
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import numpy as np
 from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
+import sys
 
 # Import data (Make sure to parse dates. Consider setting index column to 'date'.)
 df = pd.read_csv('fcc-forum-pageviews.csv')
